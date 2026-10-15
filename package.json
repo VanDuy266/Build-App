@@ -1,8 +1,8 @@
 {
-  "name": "maison-shop",
+  "name": "vanduy-store",
   "description": "The Blank project template includes the minimum dependencies to run and an empty root component.",
   "license": "0BSD",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.ts",
   "dependencies": {
     "expo": "~57.0.30",
@@ -21,6 +21,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "server": "node server/index.cjs",
+    "test:api": "node --test server/api.test.cjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
   }
 }

@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Maison",
-    "slug": "maison-shop",
-    "version": "1.0.0",
+    "name": "Xe điện Đức Tú",
+    "slug": "xe-dien-duc-tu",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

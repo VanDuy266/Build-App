@@ -42,3 +42,7 @@ yarn-error.*
 
 # Exported native bundles
 dist-native/
+
+# Local API database and env
+server/data/
+.env
